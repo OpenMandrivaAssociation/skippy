@@ -1,6 +1,6 @@
 Name:		skippy
 Version: 0.5.0
-Release:	3mdk
+Release:	%mkrel 3
 License:	GPL
 Group:		Graphical desktop/Other	
 Summary:	A full screen pager for X11
