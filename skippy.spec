@@ -8,7 +8,6 @@ Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Patch0:     skippy.Makefile.patch.bz2
 Url:		http://thegraveyard.org/skippy.php
 BuildRequires: imlib2-devel 
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 
