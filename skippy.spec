@@ -7,7 +7,7 @@ Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Patch0:     skippy.Makefile.patch.bz2
 Url:		http://thegraveyard.org/skippy.php
-BuildRequires: imlib2-devel 
+BuildRequires: imlib2-devel xmu-devel xft-devel
 
 %description
 
