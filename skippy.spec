@@ -10,7 +10,6 @@ Url:		http://thegraveyard.org/skippy.php
 BuildRequires: imlib2-devel X11-devel
 
 %description
-
 A full screen pager for X11, not entirely unlike expocity and Apple's
 Expose. It arranges snapshots of all windows on the current desktop,
 allowing you to easily switch between applications. It doesn't require
