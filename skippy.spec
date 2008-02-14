@@ -3,6 +3,7 @@ Version: 0.5.0
 Release:	%mkrel 3
 License:	GPL
 Group:		Graphical desktop/Other	
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Patch0:     skippy.Makefile.patch.bz2
