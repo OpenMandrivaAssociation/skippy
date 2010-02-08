@@ -6,7 +6,6 @@ Group:		Graphical desktop/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
-Patch0:     skippy.Makefile.patch.bz2
 Url:		http://thegraveyard.org/skippy.php
 BuildRequires: imlib2-devel X11-devel
 
@@ -18,7 +17,6 @@ a specific window manager, but requires NetWM compliance to work
 ( working with gnome, fluxbox, Metacity, KWin, IceWM, and others )
 %prep
 %setup -q 
-%patch0 -p 0
 
 %build
 %make
