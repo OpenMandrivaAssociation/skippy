@@ -18,7 +18,7 @@ a specific window manager, but requires NetWM compliance to work
 ( working with gnome, fluxbox, Metacity, KWin, IceWM, and others )
 %prep
 %setup -q 
-%patch -p 0
+%patch0 -p 0
 
 %build
 %make
