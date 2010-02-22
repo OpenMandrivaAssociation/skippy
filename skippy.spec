@@ -7,7 +7,11 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Url:		http://thegraveyard.org/skippy.php
-BuildRequires: imlib2-devel X11-devel
+BuildRequires: imlib2-devel
+BuildRequires: libx11-devel
+BuildRequires: libxft-devel
+BuildRequires: libxinerama-devel
+BuildRequires: libxmu-devel
 
 %description
 A full screen pager for X11, not entirely unlike expocity and Apple's
@@ -19,6 +23,7 @@ a specific window manager, but requires NetWM compliance to work
 %setup -q 
 
 %build
+%setup_compile_flags
 %make
 
 %install
