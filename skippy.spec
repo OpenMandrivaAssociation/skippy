@@ -1,6 +1,6 @@
 Name:		skippy
 Version: 0.5.0
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL
 Group:		Graphical desktop/Other	
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
