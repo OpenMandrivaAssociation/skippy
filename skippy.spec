@@ -8,10 +8,10 @@ Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Url:		http://thegraveyard.org/skippy.php
 BuildRequires: imlib2-devel
-BuildRequires: libx11-devel
-BuildRequires: libxft-devel
-BuildRequires: libxinerama-devel
-BuildRequires: libxmu-devel
+BuildRequires: pkgconfig(x11)
+BuildRequires: pkgconfig(xft)
+BuildRequires: pkgconfig(xinerama)
+BuildRequires: pkgconfig(xmu)
 
 %description
 A full screen pager for X11, not entirely unlike expocity and Apple's
