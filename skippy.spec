@@ -1,9 +1,8 @@
 Name:		skippy
 Version: 0.5.0
-Release:	%mkrel 7
+Release:	8
 License:	GPL
 Group:		Graphical desktop/Other	
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Url:		http://thegraveyard.org/skippy.php
