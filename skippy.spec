@@ -5,7 +5,7 @@ License:	GPL
 Group:		Graphical desktop/Other	
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
-Url:		http://thegraveyard.org/skippy.php
+Url:		https://thegraveyard.org/skippy.php
 BuildRequires: imlib2-devel
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xft)
