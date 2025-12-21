@@ -6,6 +6,7 @@ Group:		Graphical desktop/Other
 Summary:	A full screen pager for X11
 Source0:    http://thegraveyard.org/files/%{name}-%{version}.tar.bz2
 Url:		https://thegraveyard.org/skippy.php
+BuildRequires:	make
 BuildRequires: imlib2-devel
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xft)
